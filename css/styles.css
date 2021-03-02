@@ -222,7 +222,8 @@ li {
   position: absolute;
   bottom: -10%;
   right: -5%;
-  height: 70rem;
+  /* height: 70rem; */
+  height:800px;
   object-fit: contain
 }
 
@@ -263,7 +264,7 @@ li {
 
 @media only screen and (max-width:1200px) {
   .header .hero-img {
-    right: -20%
+    right: -20%;
   }
 
   .hero-content {
@@ -292,16 +293,17 @@ li {
 
 @media only screen and (max-width:567px) {
   .header {
-    min-height: 100vh
+    min-height: 47vh;
   }
 
   .header .hero-img {
-    height: 40rem;
-    bottom: -15%
+    height: 45rem;
+    bottom: -18%;
+    left: 30%;
   }
 
   .hero-content {
-    top: 40%;
+    top: 50%;
     transform: translate(15%, -50%)
   }
 
@@ -314,8 +316,9 @@ li {
   }
 
   .hero-content h1 span {
-    font-size: 4rem
+    font-size: 3rem;
   }
+
 
   .hero-content a {
     padding: 1rem 3rem
